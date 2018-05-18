@@ -1,0 +1,59 @@
+#b{
+    background-color: #242A2E;
+}
+.logo
+{
+    height:95px;
+}
+.f1{
+    font-size: 18px;
+    font-family: "AvenirLTStd-Medium";
+    margin-top: 3.2%;
+    float: left;
+    padding-left: 5px;
+   color: #BFBFBF;
+   border-bottom: solid .5px  #E85259;
+   padding-bottom: 1.5px;
+  
+}
+.top{
+    margin-left:18.5%;
+    margin-top: 3%;
+    text-align: center;
+   
+}
+.tit{
+    text-align: center;
+    
+    font-family: 'Myriad Pro Light SemiExtended';
+    display: inline-block;
+    font-size:50px; 
+     margin-left:36.3%;
+    letter-spacing: 8px;
+    margin-bottom: 0%;
+    margin-top:1%;
+    color: #E85259;
+}
+.tit1
+{
+    text-align: center;
+    
+    font-family: "AvenirLTStd-Medium";
+    display: inline-block;
+    font-size:20px; 
+     margin-left: 30.5%;
+    letter-spacing: 3px;
+    margin-top:0.1%;
+    color:#BFBFBF;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+ font-family: 'Myriad Pro Light SemiExtended';
+ src:url("Myriad_Pro_Light_SemiExtended.otf");
+}
+@font-face{
+    font-family: "AvenirLTStd-Medium";
+    src:url("AvenirLTStd-Medium.otf");
+}
