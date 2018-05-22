@@ -1,0 +1,41 @@
+#grid {
+    position: relative;
+    width: 60vw;
+    margin: 0 auto;
+    padding-left: 0; /* Clears unordered list default of 40px */
+    
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+#grid li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 8vw;
+    padding: 0 0 6vw 0;
+    background: #fd005f;
+     overflow: hidden;
+    visibility: hidden;
+    
+}
+#grid li .hexagon {
+    position: absolute;
+    background: yellow;
+    margin-left: 1vw;
+    margin-top: 0vw;
+    width:6vw;
+    height:6vw;
+    transform: rotate(38deg) skewY(10deg) ;
+}
+#grid li *{
+    visibility: visible;
+}
+#grid li:nth-child(3n+2) {
+    margin: 0 1%;
+  }
+
