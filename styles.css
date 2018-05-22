@@ -25,7 +25,7 @@
 }
 #grid li .hexagon {
     position: absolute;
-    background: yellow;
+    background:#BFBFBF;;
     margin-left: 1.2vw;
     
     width:8vw;
