@@ -96,5 +96,5 @@ clip-path: polygon(21% 0, 79% 0, 100% 50%, 81% 100%, 21% 100%, 0 50%);
    }
 
    #hex img:nth-child(9){
-    transform: translate(12vw,1.4vw);
+    transform: translate(12vw,1.1vw);
    }
