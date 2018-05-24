@@ -7,19 +7,19 @@
     height:7vw;
 }
 .f1{
-    font-size: 1.125em;
+    font-size: 1.3vw;
     font-family: "AvenirLTStd-Medium";
     margin-top: 2vw;
     float: left;
     padding-left: 0.3vw;
    color: #BFBFBF;
    border-bottom: solid .5px  #E85259;
-   padding-bottom: 1.5px;
+   padding-bottom: 0.2vw;
   
 }
 .top{
     margin-left:20vw;
-    margin-top: 3%;
+    margin-top: 3vw;
     text-align: center;
    
 }
@@ -28,9 +28,10 @@
     
     font-family: 'Myriad Pro Light SemiExtended';
     display: inline-block;
-    font-size:3.125em; 
-     margin-left:38.1%;
-    letter-spacing: 8px;
+    font-size:3.7vw; 
+    margin-left: 37.7vw;
+    margin-right:24vw;
+    letter-spacing: 0.4vw;
     margin-bottom: 0%;
     margin-top:1%;
     color: #E85259;
@@ -41,7 +42,7 @@
     
     font-family: "AvenirLTStd-Medium";
     display: inline-block;
-    font-size:1.25em; 
+    font-size:1.48vw; 
      margin-left: 31.6%;
     letter-spacing: 0.188em;
     margin-top:0.1%;
