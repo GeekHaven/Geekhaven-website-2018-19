@@ -101,3 +101,111 @@ clip-path: polygon(21% 0, 79% 0, 100% 50%, 81% 100%, 21% 100%, 0 50%);
    #hex img:nth-child(9){
     transform: translate(1.8vw,-2.8vw);
    }
+   /* Modal info*/
+   .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 5vw; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    filter:drop-shadow(10px 10px 5px  black);
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+    
+}
+
+/* Modal Content */
+.modal-content {
+    background-color:#f7f9fc;
+    margin: auto;
+    padding-bottom: 10px;
+    
+    width: 80%;
+    
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content h2,h3{
+      font-family: 'Myriad Pro Light SemiExtended';
+      text-align: center;
+      
+}
+/* card css*/
+.card {
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50vw;
+    margin-bottom: 10vw;
+    
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 6vw;
+    border-radius:1vw;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+}
+
+.container {
+   
+    padding-left:3vw;
+    padding-top:2vw;
+    padding-bottom: 2.5vw;
+}
+
+.coordi img{
+    width:18vw;
+    margin-left:5vw;
+    margin-top:3vw;
+    margin-bottom: 4vw;
+    border-radius:50%;
+    float: left;
+    margin-right: 3.5vw;
+    border: 3px solid #3cbcab;
+}
+.container p{
+    font-size: 1.6vw;
+    margin-left: 5vw;
+    margin-bottom:1vw;
+    color: #757272;
+}
+.coordi h3{
+    font-size:3vw;
+    letter-spacing: 0.2vw;
+    color: #7da5a0;
+}
+.container h4{
+    font-size: 2vw;
+    color: #474444;
+}
+#a,#c{
+    font-size:2.2vw;
+    color:#4286f4;
+    
+}
+#a{
+    margin-left: 5.7vw;
+}
+#c{
+    margin-left: 1vw;
+}

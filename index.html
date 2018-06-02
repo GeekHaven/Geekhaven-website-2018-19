@@ -2,16 +2,18 @@
 <html>
     <head>
         <title>Geekhaven</title>
-        <link rel="icon" type="image/png" href="logo.png" />
+        <link rel="icon" type="image/png" href="./images/logo.png" />
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="styles.css">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
     <body id="b">
              <header>
             <div class="top">
-               <a href="/" class="f1" style="margin-right: 4%; padding-right:9%" >Home</a><a href="/" style="padding-right: 10%;" class="f1">Work</a> <span style="float: left;"><img class="logo" src="logo.png" ></span><a href="/" class="f1" style="padding-left: 6%;" >Activities</a><a href="/" class="f1" style="margin-left:4.6%; padding-left:6%">Contact</a>
+               <a href="/" class="f1" style="margin-right: 4%; padding-right:9%" >Home</a><a href="/" style="padding-right: 10%;" class="f1">Work</a> <span style="float: left;"><img class="logo" src="./images/logo.png" ></span><a href="/" class="f1" style="padding-left: 6%;" >Activities</a><a href="/" class="f1" style="margin-left:4.6%; padding-left:6%">Contact</a>
             </div>
             
                 <h1 class="tit" >GEEKHAVEN</h1>
@@ -19,7 +21,7 @@
            
         </header>
         <div id="hex">
-            <img  src="wall.jpg" class="clip">
+            <img  id ="foss" onClick="myFunction()" src="foss.jpg" class="clip">
           <img src="wall.jpg" class="clip">
         <img src="wall.jpg" class="clip">
         <img src="wall.jpg" class="clip">
@@ -30,5 +32,76 @@
         <img src="wall.jpg" class="clip"> 
         </div>
         
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="wing">
+                <h2 style="font-size:5vw; color: #3cbcab">FOSS</h2>
+              </div>
+              <div class="coordi">
+               <h3><strong>Coordinators</strong></h3>  
+               <div id="">
+                <img id="c1" src="./images/coordi1.jpg" alt="" > 
+                <div  class="card">
+                 <div class="container">
+                         <i id="q" style="font-size:3vw; color:green; float:left; padding-top: 0.7vw; padding-right: 2vw;" class="fas fa-quote-right"></i>
+                   <h4><b>Aswin VB</b></h4> 
+                   <p >Works with: Mean Stack and Reactjs</p> 
+                   <i id="a" class="fab fa-facebook-f"></i>
+                   <i id="c" class="fab fa-github"></i>
+                 </div>
+               </div>
+               </div>
+               
+              <img id="c2" src="./images/coordi1.jpg" alt="" > 
+              <div  class="card">
+                    <div class="container">
+                            <i id="q" style="font-size:3vw; color:green; float:left; padding-top: 0.7vw; padding-right: 2vw;" class="fas fa-quote-right"></i>
+                      <h4><b>Aswin VB</b></h4> 
+                      <p >Works with: Mean Stack and Reactjs</p> 
+                      <i id="a" class="fab fa-facebook-f"></i>
+                      <i id="c" class="fab fa-github"></i>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          
+          </div>
+          <script>
+           
+            var modal = document.getElementById('myModal');
+            
+            
+            var btn = document.getElementById("foss");
+            
+          
+            var span = document.getElementsByClassName("close")[0];
+             var body=document.getElementById('b');
+            
+            btn.onclick = function() {
+                modal.style.display = "block";
+                
+            }
+            
+           
+            span.onclick = function() {
+                modal.style.display = "none";
+                
+            }
+            
+           
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                   
+                }
+            }
+            </script>
+            
     </body>
 </html>
